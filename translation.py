@@ -76,7 +76,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Get Api', url=f'https://bit.ly/EZ4Short')
+        InlineKeyboardButton('Get Api', url=f'https://runurl.in/member/tools/api')
     ]
 ])
 
@@ -90,7 +90,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://ez4short.com/ref/jakeedot)
+- Website: [{base_site}](https://runurl.in)
 
 - Site Link {base_site} Current Linked API: {shortener_api}
 
@@ -129,7 +129,7 @@ This Text will be added to the **bottom** of every message **caption** or text
 For adding **line break** use \n
 To Remove Footer Text: `/footer remove`"""
 
-USERNAME_TEXT = """**Hi! {}, I am Runurl bot, bulk link converter bot From Linked Your EZ4Short Account,**
+USERNAME_TEXT = """**Hi! {}, I am Runurl bot, bulk link converter bot From Linked Your runurl Account,**
 
 **🌟 Type** /channel (channel link or username)
 
