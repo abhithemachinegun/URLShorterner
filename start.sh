@@ -1,5 +1,5 @@
 echo "Cloning Repo...."
-git clone https://github.com/abhithemachinegun/URLShortener.git /URLShortener
+git clone https://github.com/abhithemachinegun/URLShorterner.git /URLShorterner
 cd /URLShortener
 pip3 install -r requirements.txt
 echo "Starting Bot...."
